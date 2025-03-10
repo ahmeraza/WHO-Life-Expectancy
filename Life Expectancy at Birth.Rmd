@@ -1,6 +1,6 @@
 ---
-title: 'Assignment A2.2: Life Expectancy at Birth'
-author: "MBAN2 Team7"
+title: 'Life Expectancy at Birth'
+author: "Ahmed Raza"
 date: "2025-02-13"
 output:
   pdf_document: default
@@ -14,10 +14,10 @@ library(tidyverse)
 library(countrycode)
 
 # Reading the Male Life Expectancy dataset
-df_males <- read.csv("data/Males.csv", skip=4, stringsAsFactors=FALSE, check.names=TRUE)
+df_males <- read.csv("Males.csv", skip=4, stringsAsFactors=FALSE, check.names=TRUE)
 
 # Reading the Female Life Expectancy dataset
-df_females <- read.csv("data/Females.csv", skip=4, stringsAsFactors=FALSE, check.names=TRUE)
+df_females <- read.csv("Females.csv", skip=4, stringsAsFactors=FALSE, check.names=TRUE)
 
 # To view column names
 colnames(df_males)
@@ -122,7 +122,7 @@ head(df_combined)
 ## Saving the Cleaned & Merged Dataset
 ```{r}
 # Saving the cleaned and merged dataset
-write.csv(df_combined, "data/Merged_Life_Expectancy.csv", row.names = FALSE)
+write.csv(df_combined, "Merged_Life_Expectancy.csv", row.names = FALSE)
 ```
 
 ## Exploratory Data Analysis (EDA) & Further Cleaning
