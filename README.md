@@ -1,22 +1,22 @@
 # Life Expectancy at Birth
-Males and Females datasets across different regions with the details of life expectancy across the decades. 
+Males and Females dataset across different regions with the details of life expectancy over the past few decades. 
 
 ## Description
 
-This report analyzes the Adult Income dataset to explore income inequalities tied to
-demographic factors such as race, gender, age, and others. The dataset contains 48,842
-entries, with no missing values after preprocessing. Key findings include an average age
-of 38.64 years, a predominantly wage-dependent sample, and a significant
-representation of White (85.5%) and male (66.9%) individuals. These demographics
-suggest potential biases in income distribution.
+This report analyzes the World Health Organization (WHO) significant trend in global life expectancy and 
+healthy life expectancy (HALE) over the past two decades. From 2000 to 2019, global life expectancy increased 
+by over six years, rising from 66.8 to 73.1 years. HALE also improved by 9%, increasing from 58.1 to 63.5 years. 
+This progress was largely driven by declining mortality rates rather than a reduction in years lived with 
+disability. However, the data indicates that the increase in HALE (5.3 years) did not keep pace with the 
+overall rise in life expectancy (6.4 years), suggesting that while people were living longer, the additional 
+years were not necessarily lived in good health.
 
-We used logistic regression and random forest models to predict income. Logistic
-regression struggles with class imbalance, while the random forest model achieves 85%
-accuracy, with better precision and recall for high-income predictions (>50K). However,
-its 61% recall for the >50K class indicates challenges in accurately identifying high
-earners, particularly females, blacks, and other people from underrepresented groups.
-The analysis highlights systemic income disparities tied to race and gender, reflecting
-broader societal inequities.
+The COVID-19 pandemic significantly disrupted this progress, reversing about a decade’s worth of gains. 
+By 2020, both life expectancy and HALE regressed to 2016 levels (72.5 and 62.8 years, respectively). 
+By 2021, the decline continued, bringing both indicators back to 2012 levels (71.4 and 61.9 years, 
+respectively). This sharp downturn underscores the profound impact of the pandemic on global health, 
+highlighting the vulnerability of public health systems and the urgent need for policies that enhance 
+resilience against future health crises.
 
 ## Usage
 
